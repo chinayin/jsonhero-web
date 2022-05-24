@@ -51,19 +51,19 @@ export function Header() {
           </PopoverContent>
         </Popover>
 
-        <li className="opacity-90 transition hover:cursor-pointer hover:opacity-100">
-          <GithubStar />
-        </li>
-         <li className="hover:cursor-pointer opacity-90 hover:opacity-100 transition">
-          <a href="mailto:hello@jsonhero.io">
-            <EmailIconTransparent />
-          </a>
-        </li>
-        <li className="opacity-90 transition hover:cursor-pointer hover:opacity-100">
-          <a href="https://discord.gg/ZQq6Had5nP" target="_blank">
-            <DiscordIconTransparent />
-          </a>
-        </li>
+        {/*<li className="opacity-90 transition hover:cursor-pointer hover:opacity-100">*/}
+        {/*  <GithubStar />*/}
+        {/*</li>*/}
+        {/* <li className="hover:cursor-pointer opacity-90 hover:opacity-100 transition">*/}
+        {/*  <a href="mailto:hello@jsonhero.io">*/}
+        {/*    <EmailIconTransparent />*/}
+        {/*  </a>*/}
+        {/*</li>*/}
+        {/*<li className="opacity-90 transition hover:cursor-pointer hover:opacity-100">*/}
+        {/*  <a href="https://discord.gg/ZQq6Had5nP" target="_blank">*/}
+        {/*    <DiscordIconTransparent />*/}
+        {/*  </a>*/}
+        {/*</li>*/}
       </ol>
     </header>
   );

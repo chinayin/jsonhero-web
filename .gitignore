@@ -12,3 +12,4 @@ node_modules
 /meta.json
 /stats.html
 public/entry.worker.js
+.idea/

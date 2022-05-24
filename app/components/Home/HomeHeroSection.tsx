@@ -10,7 +10,7 @@ const jsonHeroSlogan = "But we're making it better.";
 export function HomeHeroSection() {
   return (
     <div
-      className={`flex items-stretch flex-col md:flex-row bg-[rgb(56,52,139)] lg:p-6 lg:pb-16 pt-20 lg:pt-32`}
+      className={`flex items-stretch flex-col md:flex-row bg-[rgb(56,52,139)] lg:p-6 lg:pb-16 pt-20 lg:pt-32 h-screen`}
     >
       <div className="self-center md:w-1/2 md:pr-10 flex justify-end">
         <div className=" max-w-3xl">

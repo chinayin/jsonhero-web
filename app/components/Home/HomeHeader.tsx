@@ -33,24 +33,24 @@ export function HomeHeader() {
           </PopoverContent>
         </Popover>
 
-        <li className="hover:cursor-pointer">
-          <GithubStar />
-        </li>
-        <li className="hover:cursor-pointer opacity-90 hover:opacity-100 transition">
-          <a href="mailto:hello@jsonhero.io">
-            <EmailIconTransparent />
-          </a>
-        </li>
-        <li className="hover:cursor-pointer opacity-90 hover:opacity-100 transition">
-          <a href="https://discord.gg/ZQq6Had5nP" target="_blank">
-            <DiscordIconTransparent />
-          </a>
-        </li>
-        <li className="hover:cursor-pointer opacity-90 hover:opacity-100 transition">
-          <a href="https://twitter.com/json_hero" target="_blank">
-            <TwitterIcon />
-          </a>
-        </li>
+        {/*<li className="hover:cursor-pointer">*/}
+        {/*  <GithubStar />*/}
+        {/*</li>*/}
+        {/*<li className="hover:cursor-pointer opacity-90 hover:opacity-100 transition">*/}
+        {/*  <a href="mailto:hello@jsonhero.io">*/}
+        {/*    <EmailIconTransparent />*/}
+        {/*  </a>*/}
+        {/*</li>*/}
+        {/*<li className="hover:cursor-pointer opacity-90 hover:opacity-100 transition">*/}
+        {/*  <a href="https://discord.gg/ZQq6Had5nP" target="_blank">*/}
+        {/*    <DiscordIconTransparent />*/}
+        {/*  </a>*/}
+        {/*</li>*/}
+        {/*<li className="hover:cursor-pointer opacity-90 hover:opacity-100 transition">*/}
+        {/*  <a href="https://twitter.com/json_hero" target="_blank">*/}
+        {/*    <TwitterIcon />*/}
+        {/*  </a>*/}
+        {/*</li>*/}
       </ol>
     </header>
   );

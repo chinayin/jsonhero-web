@@ -196,7 +196,7 @@ export function CatchBoundary() {
             <b>Sorry</b>! Something went wrong...
           </ExtraLargeTitle>
           <SmallSubtitle className="text-slate-200 mb-8">
-            We couldn't find the page <b>'https://jsonhero.io/j/{params.id}</b>'
+            We couldn't find the page <b>'/j/{params.id}</b>'
           </SmallSubtitle>
           <a
             href="/"

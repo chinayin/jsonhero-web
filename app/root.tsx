@@ -25,16 +25,6 @@ export const meta: MetaFunction = ({ location }) => {
     title: "JSON Viewer - JSON Hero",
     viewport: "width=device-width,initial-scale=1",
     description,
-    "og:image": `https://jsonhero.io/images/opengraph.png`,
-    "og:url": `https://jsonhero.io${location.pathname}`,
-    "og:title": "JSON Hero - A beautiful JSON viewer",
-    "og:description": description,
-    "twitter:image": "https://jsonhero.io/images/opengraph.png",
-    "twitter:card": "summary_large_image",
-    "twitter:creator": "@json_hero",
-    "twitter:site": "@json_hero",
-    "twitter:title": "JSON Hero",
-    "twitter:description": description,
   };
 };
 

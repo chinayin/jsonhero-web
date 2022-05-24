@@ -13,13 +13,13 @@ export default function Index() {
     <div className="overflow-x-hidden">
       <HomeHeader />
       <HomeHeroSection />
-      <GithubBanner />
-      <HomeInfoBoxSection />
-      <HomeEdgeCasesSection />
-      <HomeSearchSection />
-      <HomeCollaborateSection />
-      <HomeFeatureGridSection />
-      <HomeFooter />
+      {/*<GithubBanner />*/}
+      {/*<HomeInfoBoxSection />*/}
+      {/*<HomeEdgeCasesSection />*/}
+      {/*<HomeSearchSection />*/}
+      {/*<HomeCollaborateSection />*/}
+      {/*<HomeFeatureGridSection />*/}
+      {/*<HomeFooter />*/}
     </div>
   );
 }
